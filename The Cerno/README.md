@@ -1,1 +1,3 @@
-For following along with the Chernos C course 
+For following along with the Chernos C++ course 
+
+https://www.youtube.com/playlist?list=PLlrATfBNZ98dudnM48yfGUldqGD0S4FFb
