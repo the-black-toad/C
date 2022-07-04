@@ -1,0 +1,31 @@
+Variables 
+(the primitive types)
+
+Store and manipulate data 
+
+Stack and the heap is where the data is stored 
+
+Different types of variables in C++ but don't have to follow the rules 
+Real distinction is the size 
+
+int - integers traditionally 4 bytes large. -2b to +2b because it is a signed variable. 32 bits
+you can add unsigned to the front to get more space 
+
+Sizes:
+char - 1 byte 
+short - 2 bytes
+int - 4 bytes
+long - 4 bytes
+long long - 8 bytes
+
+std::out will treat variables as they are named on the way out 
+
+float and doubles
+float - decimal value, 4 bytes, have to add an f 
+double - decimale, 8 bytes 
+
+boolean - 1 byte. Cant address bits, can access bytes 
+
+sizeof() will tell you the byte size 
+
+pointers and references will be addressed later 
