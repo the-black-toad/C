@@ -1,0 +1,37 @@
+Header files 
+
+used to declare certain types of functions to be used multiple times 
+a place to say that this file exists 
+not the definition of the function 
+
+function declaration
+void Log(cont char* message);
+
+but what if you need to do this in multiple files 
+header files are usually included in .cpp files 
+
+Log.h 
+#pragma once 
+void Log(cont char* message);
+
+Now it will allow you to use log anywhere with
+#include "Log.h"
+
+What is #pragma once 
+# are preprocessor commands 
+pragma is an instruction to only include a .cpp file once 
+useful to stop duplication of variables 
+
+Ifndef are the traditional way to guard agaisnt double definition
+
+#ifndef _LOG_H
+#define _LOG_H
+
+struct player {};
+
+#endif
+
+<> to tell compiler to search specific file paths in include file paths
+# is relative instructions 
+
+cpp standard libaries have .h regular c do not
