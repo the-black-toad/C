@@ -1,0 +1,18 @@
+Functions
+
+blocks that designed to do a specific function
+Later when used with classes, they will be called methods
+
+useful for stopping code duplication and maintainence 
+
+Normally, have an input and an output
+void means don't return anything 
+
+Dont need a function for every line 
+
+You do need to jump around in memory to execute different functions
+It will take time 
+
+Common task multiple time is ripe for a function 
+
+main function will automatically return 0
