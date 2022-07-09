@@ -1,0 +1,24 @@
+Breakpoints and reading memory are two big parts of debugging 
+
+What are breakpoints?
+pausing points in the program and when the execution hits that line it will pause
+state - memory 
+
+F9 in visiual studio or click on the line 
+set breakpoints on lines that execute
+
+step into - will take you into the function 
+step over - next line of code past the function
+step out - jump out of the function 
+
+yellow arrow is not whats executed - but what it about to happen
+
+Autos and locals - local variables 
+watch - monitor variable 
+
+memory view - debug windows memory view one
+uninit stack memory will be filled with cc 
+
+4 bytes of memory 
+to jump out of a for loop, just put a breakpoint outside and run the program again
+
