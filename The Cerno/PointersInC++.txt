@@ -1,0 +1,31 @@
+POINTERS
+
+raw pointers 
+Memory is the most important thing in programming 
+Pointers manage and manipulate memory 
+
+Pointer is an int that stores a memory address
+
+void* ptr = 0 (not valid but that is fine NULL)
+void* is a typless pointer
+types mean that the data at the pointer is presumed to be that type
+
+int var = 8;
+void* ptr = &var;
+store the memory address of var in ptr
+
+*ptr = 10; - dereferencing the data so you can read or write to the data
+types come in handy here to tell it how to write to that data
+so would need to change from void to int 
+
+We have been doing this on the stack
+
+This is how you do it on the heap 
+
+char* buffer = new char[8]
+returns a pointer to the beginning of the memory address
+memset(buffer, 0, 8); sets all data to 0
+delete [] buffer;
+
+char** ptr to a pointer
+char** ptr = &buffer;
