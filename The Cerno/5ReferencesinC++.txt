@@ -1,0 +1,36 @@
+References are extension of pointers 
+
+A way to reference an existing variable 
+cannot be set to null, have to reference
+
+Dont really occupy memory or storage 
+
+int a = 5;
+int& ref = a; 
+ref = 2; 
+
+creating an alias, not really a variable 
+2 will come out 
+
+important for passing variables into functions 
+
+
+Annoying way to do it 
+void Increment(int* value)
+{
+   (*value)++; need to deference first to write to the memory address 
+}
+
+Increment(&a);
+
+////
+
+void Increment(int& value)
+{
+   value++; no need to deference because we are passing in the reference 
+}
+
+Increment(a);
+
+References are immutable 
+References are just syntax sugar
