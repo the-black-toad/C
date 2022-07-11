@@ -1,0 +1,13 @@
+Jumping around in Memory 
+
+Branching has overhead so if you want to go super fast, you need to get rid of branching
+
+Conditions key off of comparasions 
+== checking the 4 bytes of memory to see if they are equivalent 
+
+Can go to the dissassebly in debug to see the assembly code 
+then you can walk through and see the values getting loaded 
+
+if the if statement is one line, you do not need brackets
+
+else if statements only get run if the first check fails 
