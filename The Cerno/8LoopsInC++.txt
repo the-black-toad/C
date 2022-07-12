@@ -1,0 +1,30 @@
+For loops and While loops
+When we want to preform the same operation multiple times 
+
+  for(variable declaration; condition; code that is called before the next iteration)
+    {
+    code
+    }
+    
+  They are very flexible and you can break out the different variable actions to be in the loop or before it
+  
+  While loop 
+  
+  Just a condition 
+  
+  While(condition)
+    {
+    code
+    }
+
+When should you use a for or while loop? Comes down to if you need a variable. Style and convention really. 
+If you have a variable before and you just want to check it - while 
+if you want to be more specific - for 
+
+do while loops
+Do 
+{ 
+code will get executed ATLEAST once 
+} while (condition); 
+
+
