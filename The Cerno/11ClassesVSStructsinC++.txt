@@ -1,0 +1,8 @@
+structure vs class
+no real difference except that structs variables are public by default
+
+structure 
+exists to maintain backwards capability with c
+used to talk about POD plain or data. A bunch of variables
+a mathmatical vector class 
+never use inheritance with structs
