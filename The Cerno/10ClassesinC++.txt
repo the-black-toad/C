@@ -1,0 +1,22 @@
+OOP
+style that you can adopt to write your code 
+java is meant for that
+c++ does not need to be in oop, c does not have objects or classes
+
+Classes are a way to group data or functionality together 
+
+Class player 
+{
+  variables for each item
+};
+
+Player player; class acts as a type now variables made like this are called objects and the 
+specific one is an instance. 
+
+void Move(Player& needs to be a reference bc we are going to modify it. int xa, intya)
+{
+
+}
+
+can put functions inside of classes
+Functions inside classes are called methods
