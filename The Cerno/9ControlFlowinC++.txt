@@ -1,0 +1,11 @@
+Continue
+
+Only used inside of loop - go to the next iteration 
+
+Break
+
+Switch and loops, get out
+
+Return 
+
+Get out of the function entirely. Needs to return a value
