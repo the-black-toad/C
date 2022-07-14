@@ -1,0 +1,13 @@
+When it is inside of a class:
+  
+  with a variable - one version of the variable 
+    point to the same x and y 
+      Entity::x=6
+      Entity::y=5
+      best way to reference them 
+      organizational reason really 
+    
+  with a methods - cant reference class instances and vice versa 
+   static methods do not have a class instance so you cannot refrence the class variables
+   the same as writing a method outside of the class 
+   
