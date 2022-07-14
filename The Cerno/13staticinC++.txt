@@ -1,0 +1,9 @@
+I had notes from last night but i forgot to hit commit
+
+static outside of a class: 
+statics in c++ stop the linker from looking for the same variable in other files 
+only present in that translation file 
+can put extern infront of a variable to force the linker to look elsewhere
+
+static inside of a class:
+across all instances of the class this variable will exist 
