@@ -1,0 +1,17 @@
+Enumeration
+
+A way to give a name to a value 
+
+int A = 4;
+int B = 1;
+int C = 3;
+
+enum Example : unsigned int (has to be integer)
+{
+  A, B, C
+  default value is 0 and then increments 
+  can specify values as well 
+  A = 1, B = 3, C =4
+};
+
+Example value = A
