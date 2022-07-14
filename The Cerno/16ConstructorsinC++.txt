@@ -1,0 +1,19 @@
+What is a constructors 
+special type of method that runs everytime we instasiate a variable 
+
+class Entity
+{
+public: 
+  float X, Y;
+  
+  Entity ()
+  {
+     X = 0.0;
+     Y = 0.0;
+  }
+}
+
+If you dont specify it will just set it to whatever was in that memory 
+Can add in parameters 
+
+Entity () = delete; will delete the default constructor
