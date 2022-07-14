@@ -1,0 +1,11 @@
+Destructors run when your objects are destroyed 
+uninit instances 
+
+
+~Entity()
+{
+  std::cout << "Destroyed Entity!" << std::endl;
+  
+}
+
+Pretty simple
