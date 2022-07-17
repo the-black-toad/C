@@ -1,0 +1,16 @@
+A base class that has basic functionality and then sub classes that branch off 
+
+change the functionality or introduce new functionality 
+template - good for code reuse 
+
+class Parent
+{
+public: 
+  float x, y;
+}
+
+class Child : public Parent
+{
+public: 
+    const char name;
+}
