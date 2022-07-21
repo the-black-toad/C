@@ -1,0 +1,14 @@
+Virtual functions 
+
+If we have two classes A the prime and B the sub, if there is a function in A
+We can mark it as virtual and then overwrite it in the B class
+
+when class a is passed to a funciton and then inside that function a class function is called, it will call the parent class function
+
+vtable - mapping of virtual functions from base class 
+if you want to overwrite a function, mark it as virtual in the base class
+mark with override
+some additional memory is used to store the vtable 
+everytime we call it has to go through that vtable so
+2 preformance costs
+
