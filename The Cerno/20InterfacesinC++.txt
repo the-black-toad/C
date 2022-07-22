@@ -1,0 +1,14 @@
+Pure virtual function 
+same as abstract method or interface
+
+define in function in a base class and then force subclasses to implement them 
+regular virtual functions are optional to overwrite 
+interface 
+- class that only consists of unimplemented methods 
+- up to the sublcass to implement
+- cant instantiate it 
+
+public: 
+  virtual std::string getName() = 0;
+  
+can only create the class if all pure virtual functions are implemented 
