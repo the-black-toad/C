@@ -1,0 +1,21 @@
+String Literals 
+
+"cherno"; - string literal 
+const char array of size + 1 
+one extra char that is null termination 
+\0 is the termination char 
+
+const promises that you wont change this variable 
+string literals are stored in read only memory 
+
+wchar_t* name2 = L"Cherno"l
+wide string
+
+const char16_t and char32_t needs U infront of 
+"Cherno"s + " hello"; will work only in c++14
+
+const char* example = R"()
+Line2
+Line3
+Line4)";
+ignores escape characters 
