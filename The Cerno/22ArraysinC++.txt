@@ -1,0 +1,20 @@
+Array is a collection of things 
+way to represent a collection of variables 
+
+type name[how many];
+int example[5];
+
+access it by indexing. Start with 0 
+If you try access a variable outside the range you will get a memory access error 
+in debug mode an error, but not in production
+
+go well with for loops 
+accesses variables via offsetting the memory 
+an array is a pointer 
+
+can create on the heap as well 
+int* another = new int[5];
+
+want to create on the stack if you can because otherwise you will get preformance hit
+
+no way to check the size of an array 
