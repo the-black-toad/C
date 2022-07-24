@@ -1,0 +1,28 @@
+A string is a group of characters 
+text
+
+Characters 
+characters are one byte in c++
+8 bits 256 possibilities 
+utf 16 around 65k 
+
+strings use chars 
+a string is basically an array of characters 
+const char* name = "name";
+not heap allocated 
+strings are immutable
+if you dont use new you dont need to use delete 
+
+null termination char is 00 and is at the end of the string
+can create an array and as long as you put the termination 00 it will print correctly 
+double qoutes by default creates a char pointer 
+
+std::string - #include <string>
+a bunch of built in functions 
+
+cant append with + to simple strings or char arrays 
+need to initiate it first then you can append
+
+passing a class into a function creates a copy of that class and gives it to the funciton
+pass by constr reference const string& 
+much faster 
