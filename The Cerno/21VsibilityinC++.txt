@@ -1,0 +1,7 @@
+Who can see variables and functions 
+no impact on preformance 
+
+private - only this class and its friend class can access. default for classes 
+protected - only this class and its subclasses can access
+public - everything can access. Default for structs
+
