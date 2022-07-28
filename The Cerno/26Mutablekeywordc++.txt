@@ -1,0 +1,11 @@
+Mutable 2 uses
+Const use 
+lambdas
+
+const use 
+inside class const method can modify a variable 
+
+lambda 
+quick throwaway function 
+mutable allows it to modify variables that you pass by value
+
