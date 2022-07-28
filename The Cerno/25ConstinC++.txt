@@ -1,0 +1,15 @@
+A mechanism to make our code look more clean 
+a promise to give to not change a variable
+
+can break it by redefining a pointer as a deference to the const var
+depends on if const is before or after pointer * changes the meaning 
+
+const int*
+int* const 
+const int* const 
+
+can also apply to functions 
+read only method 
+
+if you pass a const reference you can only call const methods 
+mutable - allows const methods to modify a variable 
