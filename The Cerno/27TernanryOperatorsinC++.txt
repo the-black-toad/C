@@ -1,0 +1,15 @@
+class Entity
+{
+private:
+  std::string m_Namel
+  int m_score;
+public:
+  Entity()
+    : m_name("UNkown"), m_Score(0)
+    {
+    }
+ }
+
+Called an member initalizer list. Make sure you init them in the same order you declared them
+functional difference 
+if you dont use it, you may end up creating the object twice 
