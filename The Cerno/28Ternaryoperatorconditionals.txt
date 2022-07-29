@@ -1,0 +1,16 @@
+Question Marks! 
+Syntatic sugar for if statement
+
+?:
+
+if (s_Leevel > 5)
+  s_Speed = 10;
+else
+  s_Speed = 5;
+  
+Is the same as this: 
+  
+s_Speed = s_Level > 5 ? 10 : 5 ;
+
+It is a little faster and a little cleaner in the code
+not really great for nesting
