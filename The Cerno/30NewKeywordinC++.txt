@@ -1,0 +1,8 @@
+New takes time! 
+it is an operator 
+Has to look for contigous memory 
+free list - maintains addresses with open sapce 
+new returns a pointer! it is a helper 
+finds memory and says here ya go 
+ALSO will call the constructor 
+MUST use delete 
