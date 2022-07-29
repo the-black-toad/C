@@ -1,0 +1,12 @@
+Memory allocation
+stack vs heap 
+stack objects have an automatic lifespan. When the var goes out of scope
+it pops
+
+heaps allocation will sit there until you free it 
+takes longer!! 
+have to manually free it 
+java and c# are managed languages and drop everything on the heap 
+for big objects
+
+stack is faster and smaller 
