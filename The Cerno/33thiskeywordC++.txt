@@ -1,0 +1,23 @@
+This only accessible via member function
+
+this is a pointer to the current object instance that the method belongs to 
+needs a valid object
+
+class Entity
+{
+public:
+  int x, y;
+  
+  Entity(int x, int y)
+  {
+  
+   Entity* const e = this;
+   // cant do x = x;
+  this->x = x;
+  this->y = y;
+ 
+  }
+
+// can also use it to call functions outside of the current class 
+}
+ 
