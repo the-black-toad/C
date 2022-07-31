@@ -1,0 +1,33 @@
+Implicit = automatic
+
+can call class as 
+
+class Entity 
+{
+private:
+  std::string m_Name;
+  int m_Age;
+public:
+  Entity(const std::string& name)
+      : m_Name(name), m_Age(-1) {}
+      
+  Entity(int age)
+      : m_Name("Unkown"), m_Age(age) {}
+};
+
+void PrintEntity(const Entity& entity)
+{
+
+}
+
+int main()
+{
+
+  Entity a = "Cherno";
+  Entity b = 22;
+  std::cin.get();
+
+}
+
+So, since you have a constructor the implicit conversion will create an entity with name unkown and age 
+If you put explicit infront of a constructor it will stop this functionality 
