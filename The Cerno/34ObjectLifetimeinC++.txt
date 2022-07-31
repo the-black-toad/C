@@ -1,0 +1,38 @@
+Stack vs heap again 
+
+Scopes push a stack frame 
+like pushing a book on the stack
+variables are writing in the book
+when you leave that scope you remove that entire book
+
+scopes - functions, if, for, while, {}, class 
+when you leave the scope its destroyed 
+
+int* CreateArray()
+{
+  int array[50];
+  return array;
+}
+
+this will fail  as the memory will be cleared after you return 
+
+class scopedPtr
+{
+private: 
+  Entity* m_Ptr;
+public:
+  ScopedPTr(Entity* ptr)
+    : m_Ptr(ptr)
+    {
+    }
+    
+    ~ScopedPtr()
+    {
+      delete m_Ptr;
+    }
+
+};
+
+this scoped pointer will auto delete a new entity 
+start thinking of how to automate code via scoping 
+timers, locking, etc etc
