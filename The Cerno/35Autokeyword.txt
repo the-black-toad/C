@@ -1,0 +1,7 @@
+The auto keyword in c++ will automatically select the variable type based on context
+this is good because really ugly and long var declarations will be 
+wrapped up nice and neat
+
+however, you also run the risk of turning c++ in a weak language and we don't want that
+
+also, sometimes with templates you might have to use them
