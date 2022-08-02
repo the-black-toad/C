@@ -1,0 +1,18 @@
+Smart pointers automate the creation and deletion of memory management
+a wrapper around a real pointer 
+
+unique - when the pointer goes out of scope it will get destroyed 
+cant copy these guys, static pointer 
+
+Entity class {}
+
+std::unique_ptr<Entity> entity = std::make_unique<Entity>();
+entity->Print();
+low overhead, created on the stack and ties into heap variable
+cannot add this line:
+std::unique_ptr<Entity< entity2 = entity;
+
+shared pointer - keep track of how many references you have, and when the counter is 0 
+delete everything
+std::sahred_ptr<Entity< sharedEntity = std::nake_shared<Entity>();
+std::sahred_ptr<Entity< t = sharedEntity; 
