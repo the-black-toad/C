@@ -1,0 +1,8 @@
+Instead of dereferencing the pointer and then calling print 
+we can use the ->
+
+a shortcut to deferencing essentially 
+
+ptr->x=2
+
+can also do some funky stuff with it but my attention is not great tonight
