@@ -1,0 +1,22 @@
+When you copy a class you need to be careful about what is getting copied
+if you do not set up a method it will end up to two vars looking at the same pointer
+will cause crashing as the memory attempts to get cleared twice
+
+need to create a new array to hold the copy
+need to create a copy constructor 
+
+it is a constructor that takes in a const reference to the same class
+
+// for the class string
+String(const String& other)
+{
+  memcpy(this, &other, sizeof(string));
+}
+
+String(const String& other)
+    : m_Size(other.m_Size) // shallow copy 
+    {
+      m_buffer = m_size + 1; 
+      // copy the contents of the first buffer into the second buffer
+      memcpy(m_Buffer, other.m_Buffer, m_Size + 1);
+    }
