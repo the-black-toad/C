@@ -1,0 +1,22 @@
+Standard template library 
+containers 
+
+vector - shouldn't be called vector, a dynamic array 
+unlike an array, it can resize 
+can init with a size but most of the time no 
+creates a new array, deletes the old one 
+allocates a lot, so not the most efficient 
+
+
+std::vector<Vertex> vertices;
+can pass in primitive types
+slighty more efficient to store objects
+memory is in a line contigous 
+
+vertices.push_back();
+
+for (Vertex& v : vertices)
+ std::cout << v << std::engl;
+ 
+
+Make sure to pass by reference
