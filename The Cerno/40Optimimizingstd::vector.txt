@@ -1,0 +1,10 @@
+optimizing how vertexs are created
+whern you construct it, it gets constructed on the stack in main 
+need to get from main to the vector - so its copied 
+- vertices.emplace_back()
+- tells the constructor to create an object with the values that gets pushed back 
+
+it constantly is getting resized as well 
+- if you know your environment you should be able to preload memory
+- vertices.reserve(3) 
+
