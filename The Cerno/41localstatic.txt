@@ -1,0 +1,13 @@
+Local Static
+
+lifetime - how long the variable will stick around for
+scope - where we can access the variable
+
+static local - lifetime is forever but inside in the function
+
+void Function()
+{
+
+	static int i = 0; // doesnt create a new variable everytime
+
+}
