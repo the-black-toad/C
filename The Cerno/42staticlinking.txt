@@ -1,0 +1,20 @@
+How to use external libraries
+
+C++ keep libs bundled in working directory
+serious projects, build the source code
+
+32 v 64 binaries - based on your target env
+
+static linking, inside the exe
+dynamic linking, linked at runtime
+
+static linking is a bit faster
+
+
+this is what i did to get the graphics library working
+going over that process
+
+relative paths
+$(SolutionDir)
+
+can use angular brackets or quotes
