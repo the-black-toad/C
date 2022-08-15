@@ -1,0 +1,27 @@
+In java and c# they are called generics
+
+templates are like macros, you can do anything
+
+get the compiler to write code for you based on rules
+kind of like a blueprint
+
+if you want a print function to work with three types normally,
+you would need three overload functions
+
+or
+
+template<typename T>
+void Print(T value)
+{
+	std::cout << value << std::endl;
+}
+
+
+int main()
+{
+
+	Print<int>(5); //don't need to specify bc c++ knows 5 is int
+
+}
+
+print function does not exist until the template is called

@@ -1,0 +1,6 @@
+need to change project configuration type to static lib from .exe
+
+can link the library as a reference and lets you change the name dynamically
+will also compile engine so if the code changes it will be the most up to date
+
+again kind of spaced out

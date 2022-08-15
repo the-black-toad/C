@@ -1,0 +1,21 @@
+Multiple Return values
+
+need to return two strings
+can't really return two types
+can return a vector
+
+Create a struct - cherno
+
+1. As input vars: can take in two variables and then set them inside of the function
+- one of the most optimal ways to deal with this
+2. As an array: pipe in the info you want and return an array. Causes a heap allocation
+- specify the size of the array
+- or vector
+3. tuple an class that can contain multiple types
+- utility and functional
+- package as a tuple and return
+- have to  use std::get<0>(sources)
+4. create a struct
+- specifiy the vars inside
+- return the struct in the function
+- all created on the stack

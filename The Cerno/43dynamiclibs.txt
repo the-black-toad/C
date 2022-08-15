@@ -1,0 +1,13 @@
+dynamic linking
+
+linking that happens at runtime not COMPILE time
+when use dynamic linking, not part of the program
+run app, load additional lib
+
+.dll issues
+
+can also right the exe to call the dll after the program runs
+
+May be differences in how to reference functions inside program
+
+kind of spaced out on this one
